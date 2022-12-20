@@ -1,0 +1,201 @@
+h1 {
+    background-color: #161513;
+}
+
+.u30-oicn {
+    color: #C74634;
+}
+
+.uno {
+    background-color: #3E686C;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dos {
+    color: #F0CC71;
+    font-size: 100px;
+    width: 20%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pt {
+    color: #F8FAFA;
+    font-size: 28px;
+    text-align: left;
+    line-height: 32px;
+    font-weight: normal;
+    font-style: normal;
+    width: 40%;
+}
+
+.bt1 {
+    width: 135px;
+    height: 44px;
+    background: #F0CC71;
+    border-radius: 4px;
+    font-family: Oracle Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.75px;
+    line-height: 16px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #161513;
+}
+
+.btc {
+    padding-top: 5%;
+}
+
+.tres {
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    color: #161513;
+    padding-left: 8%;
+    padding-right: 8%;
+    /* margin-bottom: 10px; */
+    margin-top: 6%;
+}
+
+
+
+.tresa1 {
+    font-family: Oracle Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    /* line-height: 20px; */
+    margin-right: 100px;
+    align-items: center;
+    text-align: center;
+    color: #F0CC71;
+    justify-content: center;
+    /* padding: 10px; */
+    width: 220px;
+    position: absolute;
+}
+
+.tresa2 {
+    font-family: Oracle Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    /* line-height: 29px; */
+    align-items: center;
+    text-align: center;
+    color: #F0CC71;
+    width: 200px;
+    align-items: center;
+    margin-left: 50%;
+    /* margin-bottom: 50%; */
+    position: right;
+    /* margin-top: 1%; */
+}
+
+.tresb1 {
+    font-family: Oracle Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #F8FAFA;
+    justify-content: left;
+    width: 225px;
+    align-items: left;
+    position: absolute;
+    margin-top: 14%;
+    /* margin-right: 20000%; */
+
+
+}
+
+.tresb2 {
+    font-family: Oracle Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    color: #F8FAFA;
+    position: absolute;
+    margin-left: 55%;
+    /* margin-top: %; */
+    width: 260px;
+    margin-left: 39%;
+
+}
+
+img {
+    margin-top: 15%;
+    width: 100px;
+    
+}
+.img1 {
+    margin-left: 60px;
+}
+.img2 {
+    margin-left: 150px;
+}
+
+    .card {
+        position: absolute;
+        width: 530px;
+        height: 258px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        height: 108px;
+        background: #3E686C;
+    }
+.tarjeta{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:530px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:8px;
+  font-family: sans-serif;
+  margin: 45px;
+}
+.titulo{
+    font-size: 24px;
+  padding: 10px 10px 0 10px;;
+  background-color: #3E686C;
+}
+.cuerpo{
+  padding: 10px;
+}
+.pie{
+  background: #6699ff;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+}
+.pie a{
+  text-decoration: none;
+  color: white;
+}
+.pie a:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: ""
+}
