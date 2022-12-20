@@ -217,4 +217,10 @@ img {
     background-color: rgb(32, 30, 30);
 }
 
-
+ul{
+    display: inline-block;
+}
+li{
+    display: inline-flex;
+    margin: auto
+}
