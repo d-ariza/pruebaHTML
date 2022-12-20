@@ -127,7 +127,32 @@ align: center;
 background: #628F8D;
 font-size: xx-large;
 }
+.boton{
+    /* CTA */
+/* Button */
+width: 135px;
+height: 44px;
+/* Button / Solid / 02. Text Only / 02. MD
+/ 01. Enabled */
 
+/* Brand Dark / Brand Dark 50 */
+background: #F0CC71;
+border-radius: 4px;
+/* Text */
+
+/* Body / Semi Bold / Body Semi Bold SM */
+font-family: Oracle Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13.75px;
+line-height: 16px;
+/* identical to box height, or 116% */
+display: flex;
+align-items: center;
+text-align: center;
+/* UI Light / Content / Primary */
+color: #161513;
+}
 
 /* footer */
 
