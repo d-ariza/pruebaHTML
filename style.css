@@ -84,12 +84,16 @@ border-radius: 8px;
 height: 108px;
 /* Teal / Teal 120 */
 display:flex;
-flex-direction: row;
+flex-wrap: wrap;
 }
 .right{
     display: flex;
+    background-color: red;
 }
-.left{display: flex}
+.left{
+    display: flex;
+    background-color: red;
+}
 .text{}
 .amarillo{
     /* Card Headlines */
@@ -124,7 +128,6 @@ width: 98;
 height: 64px;
 align: center;
 /* Teal / Teal 90 */
-background: #628F8D;
 font-size: xx-large;
 }
 .boton{
@@ -136,7 +139,8 @@ height: 44px;
 / 01. Enabled */
 
 /* Brand Dark / Brand Dark 50 */
-background: #F0CC71;
+/* background: #F0CC71;
+background: #628F8D; */
 border-radius: 4px;
 /* Text */
 
