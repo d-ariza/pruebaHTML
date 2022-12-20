@@ -193,7 +193,11 @@ img {
   z-index: 1;
   content: "";
 }
-footer {
-  list-style: none;
-  display: inline-flexbox;
+
+ul {
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  margin: auto;
 }
