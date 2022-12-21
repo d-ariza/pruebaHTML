@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/*header*/
+header h1 {
+  background-color: #161513;
+  margin: 0%;
+  padding: 0%;
+}
+
+header .head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #3e686c;
+  width: 100%;
+}
+
+header .dos{
+  color: #f0cc71;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 100px;
+  align-self: center;
+}
+header .txt{
+  color: #f8fafa;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  line-height: 32px;
+  width: 40%;
+  align-self: center;
+}
+header .btn_txt{
+    align-self: center;
+    background: #f0cc71;
+    font-family: Oracle Sans;
+    font-weight: 600;
+    font-size: 13.75px;
+    line-height: 16px;
+    color: #161513;
+    width: 135px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+
+
+
+
+/* footer */
+
+.footer{
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  background-color: rgb(50, 44, 44);
+}
+
+.footer ul {
+  display: inline-block;
+  font-family: Oracle Sans;
+  font-style: normal;
+}
+.footer li {
+  display: inline-flex;
+  margin: auto;
+}
