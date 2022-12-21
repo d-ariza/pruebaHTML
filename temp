@@ -188,19 +188,19 @@ img {
                     <section class="row align-items-center">
                         <section class="col-sm-3">
                             <section class="row">
-                                <section class="col-sm-3">Get a free RIO & TCO assessment and consultation</section>
-                                <section class="col-sm-3">to see how cloud-based planning can benefit your business</section>
+                                <section class="col-sm-3"></section>
+                                <section class="col-sm-3"></section>
                                 <img class="img col-sm-3" src="./images/computador.png" alt="computer">
                             </section>
                         </section>
                         <section class="col-sm-3">
                             <section class="row">
-                                <section class=" col-sm-3">Finance your Oracle Cloud EPM implementation</section>
-                                <section class=" col-sm-3">and spread costs over the term of your subscription</section>
+                                <section class=" col-sm-3"></section>
+                                <section class=" col-sm-3"></section>
                                 <img class="img col-sm-3" src="./images/billetera.png" alt="bill">
                             </section>
                         </section>
-                        <section >*Limited-time offers valid until May 2022; subject to approval by Oracle Financing</section>
+                        <section ></section>
 
                     </section>
                     <div class="pie">

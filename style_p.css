@@ -53,7 +53,95 @@ header .btn_txt{
 .box{
   align-items: center;
   width: 50%;
-  
+
+}
+
+.card_i{
+  /* Card */
+min-width: 100%;
+height: 40%;
+background: #FFFFFF;
+/* Shadow / SM */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+/* Content Area, Teal */
+height: 108px;
+/* Teal / Teal 120 */
+
+/*mio*/
+align-self: center;
+align-items: center;
+}
+
+.card_headlines{
+  background: #3E686C;
+  font-family: Oracle Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+align-items: center;
+text-align: center;
+/* Brand Dark / Brand Dark 50 */
+color: #F0CC71;
+min-width: 60%;
+}
+
+.card_sublines{
+  background: #3E686C;
+  font-family: Oracle Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 16px;
+/* or 145% */
+text-align: center;
+/* Teal / Teal 10 */
+color: #F8FAFA;
+min-width: 60%;
+
+}
+.icons_txt{
+  min-width: 98;
+height: 64px;
+align-self: center;
+/* Teal / Teal 90 */
+/* background: #628F8D; */
+}
+
+main .btn_txt{
+
+  /* CTA */
+
+
+/* Button */
+width: 135px;
+height: 44px;
+background: #F0CC71;
+border-radius: 4px;
+/* Body / Semi Bold / Body Semi Bold SM */
+font-family: Oracle Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13.75px;
+line-height: 16px;
+/* identical to box height, or 116% */
+align-items: center;
+text-align: center;
+/* UI Light / Content / Primary */
+color: #161513;
+}
+.btn_box{
+  background-color: #3E686C;
+}
+
+.txt_card{
+  margin-top: 20px;
+}
+
+img{
+  max-width: 30%;
 }
 
 
