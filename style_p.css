@@ -37,6 +37,7 @@ header .txt{
 header .btn_txt{
     align-self: center;
     background: #f0cc71;
+    background-color: #f0cc71;
     font-family: Oracle Sans;
     font-weight: 600;
     font-size: 13.75px;
@@ -45,11 +46,18 @@ header .btn_txt{
     width: 135px;
     height: 44px;
     border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+/* cuerpo*/
+.box{
+  align-items: center;
+  width: 50%;
+  
 }
 
 
-
-
+/* fincuerpo*/
 
 /* footer */
 
