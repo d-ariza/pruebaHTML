@@ -1,12 +1,18 @@
 h1 {
   background-color: #161513;
+  background-color: #161513;
 }
 
 .u30-oicn {
   color: #c74634;
+  color: #c74634;
 }
 
 .uno {
+  background-color: #3e686c;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
   background-color: #3e686c;
   flex-direction: row;
   display: flex;
@@ -19,14 +25,28 @@ h1 {
   width: 20%;
   text-align: center;
   font-weight: bolder;
+  color: #f0cc71;
+  font-size: 100px;
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
 }
 
 * {
   margin: 0px;
   padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .pt {
+  color: #f8fafa;
+  font-size: 28px;
+  text-align: left;
+  line-height: 32px;
+  font-weight: normal;
+  font-style: normal;
+  width: 40%;
   color: #f8fafa;
   font-size: 28px;
   text-align: left;
@@ -50,115 +70,156 @@ h1 {
   align-items: center;
   text-align: center;
   color: #161513;
+  width: 135px;
+  height: 44px;
+  background: #f0cc71;
+  border-radius: 4px;
+  font-family: Oracle Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.75px;
+  line-height: 16px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  color: #161513;
 }
 
 .btc {
   padding-top: 5%;
+  padding-top: 5%;
 }
 /* main */
 
-module1 {
-  /* Take advantage of one or all of these
-new offers for [COMPANY NAME]. */
+.tres {
   font-family: Georgia;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
   line-height: 32px;
-  /* or 114% */
   text-align: center;
-  /* UI Light / Content / Primary */
   color: #161513;
+  padding-left: 8%;
+  padding-right: 8%;
+  /* margin-bottom: 10px; */
+  margin-top: 6%;
 }
 
-.card{
-    /* Card */
-position: absolute;
-width: 530px;
-height: 258px;
-background: #FFFFFF;
-/* Shadow / SM */
-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-border-radius: 8px;
-/* Content Area, Teal */
-height: 108px;
-/* Teal / Teal 120 */
-display:flex;
-flex-wrap: wrap;
+.tresa {
+  font-family: Oracle Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  /* line-height: 20px; */
+  margin-right: 100px;
+  align-items: center;
+  text-align: center;
+  color: #f0cc71;
+  justify-content: center;
+  /* padding: 10px; */
+  width: 220px;
+
 }
-.right{
-    display: flex;
-    background-color: red;
+.tresb {
+  font-family: Oracle Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  color: #f8fafa;
+  justify-content: left;
+  width: 225px;
+  align-items: left;
+
+  margin-top: 14%;
+  /* margin-right: 20000%; */
 }
-.left{
-    display: flex;
-    background-color: red;
-}
-.text{}
-.amarillo{
-    /* Card Headlines */
-font-family: Oracle Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
-/* identical to box height, or 125% */
-display: flex;
-align-items: center;
-text-align: center;
-/* Brand Dark / Brand Dark 50 */
-color: #F0CC71;
-}
-.blanco{
-        /* Card Sublines */
-font-family: Oracle Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 11px;
-line-height: 16px;
-/* or 145% */
-text-align: center;
-/* Teal / Teal 10 */
-color: #F8FAFA;
+.tarjeta {
+  width: 530px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius: 8px;
+  font-family: sans-serif;
+  margin: 45px;
 }
 
-.icon{
-/* Icons */
-width: 98;
-height: 64px;
-align: center;
-/* Teal / Teal 90 */
-font-size: xx-large;
-}
-.boton{
-    /* CTA */
-/* Button */
-width: 135px;
-height: 44px;
-/* Button / Solid / 02. Text Only / 02. MD
-/ 01. Enabled */
+.tresa2 {
+  font-family: Oracle Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  /* line-height: 29px; */
+  align-items: center;
+  text-align: center;
+  color: #f0cc71;
+  /* width: 200px; */
+  align-items: center;
+  margin-left: 50%;
+  /* margin-bottom: 50%; */
 
-/* Brand Dark / Brand Dark 50 */
-/* background: #F0CC71;
-background: #628F8D; */
-border-radius: 4px;
-/* Text */
-
-/* Body / Semi Bold / Body Semi Bold SM */
-font-family: Oracle Sans;
-font-style: normal;
-font-weight: 600;
-font-size: 13.75px;
-line-height: 16px;
-/* identical to box height, or 116% */
-display: flex;
-align-items: center;
-text-align: center;
-/* UI Light / Content / Primary */
-color: #161513;
+  /* margin-top: 1%; */
 }
 
-/* footer */
+.tresb2 {
+  font-family: Oracle Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  color: #f8fafa;
+  position: absolute;
+  margin-left: 55%;
+  /* margin-top: %; */
+  width: 260px;
+  margin-left: 39%;
+}
+
+img {
+  margin-top: 15%;
+  width: 100px;
+  align-items: center;
+  align-content: center;
+}
+
+
+.card {
+  position: absolute;
+  width: 530px;
+  height: 258px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 108px;
+  background: #3e686c;
+}
+
+.titulo {
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+  background-color: #3e686c;
+}
+
+.pie {
+  background: #6699ff;
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  text-align: center;
+}
+.pie a {
+  text-decoration: none;
+  color: white;
+}
+.pie a:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: "";
+}
 
 .footer-section {
   width: 100%;
